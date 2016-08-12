@@ -1,0 +1,61 @@
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:normal;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:12px/150% Arial,Verdana,"\5b8b\4f53";color:#666;}
+body{background:#fff;}
+a{color:#333;}
+a:hover{color: #c81623;}
+input,button,select,textarea{outline:none}
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+select {
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+  border: solid 1px #cccccc;
+  /*很关键：将默认的select选择框样式清除*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  /*在选择框的最右侧中间显示小箭头图片*/
+  background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 14px;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+.width58{width: 58px}
+.width82{width: 82px}
+.width70{width: 70px}
+.width100{width: 100px}
+.br_rb{border-right: 1px solid #ededed;border-bottom: 1px solid #ededed;}
+.br_r{border-right: 1px solid #ededed;}
+.br_t{border-top: 1px solid #ededed;}
+.br_tt{border-top:1px solid #c81623;}
+.height157{height: 157px;}
+.fl{float: left;}
+.fr{float: right;}
+.red_font{color:#c81623;}
+.red_bg1{background: #c81623;}
+.red_bg2{background:#b1191a ;}
+.bold{font-weight: 700;}
+.def_curs{cursor: default;}
+.br_no{border-right:none;}
+.dotted_b{border-right:1px dotted #ededed;}
+.border_no{border:none;}
+.margin_top10{margin-top: 10px;} 
+.width197{width: 197px;}
